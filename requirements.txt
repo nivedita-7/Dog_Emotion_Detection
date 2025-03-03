@@ -1,0 +1,16 @@
+Flask>=2.1.2
+librosa==0.10.1
+numpy>=1.21.4
+numpy>=1.21.4
+matplotlib>=3.5.0
+tensorflow>=2.7.0
+keras>=2.7.0
+h5py>=3.5.0
+pandas>=1.4.0
+scikit-learn>=0.24.2
+IPython>=8.2.0
+
+
+
+
+
