@@ -1,0 +1,19 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Model Results</title>
+    <link rel="stylesheet" href="{{url_for('static', filename='css/style.css')}}">
+</head>
+<body>
+    <h1>Model Results</h1>
+    {% if label %}
+    <p><h2>The emotion detected in the uploaded audio file is: {{ label }}</h2></p>
+    {% endif %}
+    {% if label_image_1 and label_image_2 %}
+    <p><h2>The predicted breed of the dog is: {{ label_image_1 }}</h2></p>
+    <p><h2>The emotion detected in the uploaded image is: {{ label_image_2 }}</h2></p>
+    {% endif %}
+</body>
+</html>
